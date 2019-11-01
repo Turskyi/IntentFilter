@@ -25,14 +25,12 @@
         <activity android:name=".ActivityDate" android:label="Date basic">
             <intent-filter>
             <action android:name="ua.turskyi.intent.action.showdate" />
-
             <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".ActivityDateEx" android:label="Date extended">
             <intent-filter>
                 <action android:name="ua.turskyi.intent.action.showdate" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
